@@ -1,0 +1,124 @@
+{
+  "id": "34b5e892-de99-4a5b-ad27-1108b067ac7b",
+  "name": "feedback",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "feedBack",
+      "affectedContexts": [
+        {
+          "name": "feedback-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d38d201d-9812-4dac-b331-74da6cff392c",
+          "required": true,
+          "dataType": "@feedback",
+          "name": "feedBack",
+          "value": "$feedBack",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "I\u0027ll be very happy with your feedback . Please tell me which type to feed back do you want to give a COMPLAIN or SUGGESTIONS ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "081e5f6a-f6e2-45d7-b119-38673b622f84",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "subject",
+          "value": "$subject",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "let me know the subject"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "9cdd1bdc-74c4-4a85-bbed-dd72d845b2e3",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "bodyText",
+          "value": "$bodyText",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Type description here"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "title": "Complain"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "title": "Suggestions"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Complain"
+            },
+            {
+              "title": "Suggestions"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Something went wrong"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

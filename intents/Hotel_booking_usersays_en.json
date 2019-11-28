@@ -1,0 +1,142 @@
+[
+  {
+    "id": "2bc3178d-7a58-47e3-9ba2-bba7590e319f",
+    "data": [
+      {
+        "text": "book hotel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a88663a0-15fb-4bc1-9016-3523bea1f7e3",
+    "data": [
+      {
+        "text": "my email is ",
+        "userDefined": false
+      },
+      {
+        "text": "abcabc@abc.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c22f5cb4-4f6e-404a-bfa9-e46582a841f6",
+    "data": [
+      {
+        "text": "i want a ",
+        "userDefined": false
+      },
+      {
+        "text": "vip",
+        "alias": "roomType",
+        "meta": "@RoomType",
+        "userDefined": false
+      },
+      {
+        "text": " room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f483f50b-4324-4396-9833-81120681f19b",
+    "data": [
+      {
+        "text": "I want reserve a hotel room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9bd8b094-c60e-4b7f-9458-056d90c279b6",
+    "data": [
+      {
+        "text": "I want to book a hotel room for ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "persons",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " persons",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cbe11344-2a72-43b8-874c-9a49137f22fb",
+    "data": [
+      {
+        "text": "I want to book a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b59b011d-c4dd-4b0c-a37d-79fa3b97630e",
+    "data": [
+      {
+        "text": "My name is ",
+        "userDefined": false
+      },
+      {
+        "text": "john",
+        "alias": "name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "494163b1-0f06-4d22-a0aa-46c5ffc6434e",
+    "data": [
+      {
+        "text": "I want a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "25fc256e-f45b-4f49-beab-4a946be4663e",
+    "data": [
+      {
+        "text": "I need a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

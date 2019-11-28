@@ -1,0 +1,110 @@
+[
+  {
+    "id": "0015f666-35cb-46c6-914d-e10bdcf07374",
+    "data": [
+      {
+        "text": "오랜만이야",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 10,
+    "updated": 0
+  },
+  {
+    "id": "0f7d7efd-a794-4ad9-b9af-360fe454b139",
+    "data": [
+      {
+        "text": "안녕",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 10,
+    "updated": 0
+  },
+  {
+    "id": "c3a681ad-665b-4cb8-9978-2dff411bb539",
+    "data": [
+      {
+        "text": "저기",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 10,
+    "updated": 0
+  },
+  {
+    "id": "d4c083ad-3d0a-42f5-8042-7370e979c6b4",
+    "data": [
+      {
+        "text": "잘 있었어",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 10,
+    "updated": 0
+  },
+  {
+    "id": "27ac3a7f-db36-480a-8d73-f44b71afaa7e",
+    "data": [
+      {
+        "text": "반가워",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 10,
+    "updated": 0
+  },
+  {
+    "id": "2faae696-76de-4d63-bc11-370ced1ca80e",
+    "data": [
+      {
+        "text": "오랜만",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 10,
+    "updated": 0
+  },
+  {
+    "id": "4f535b10-8aa6-4fa4-bd9e-8c33d5d6ee8f",
+    "data": [
+      {
+        "text": "어떻게 지냈어",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 10,
+    "updated": 0
+  },
+  {
+    "id": "5718acc1-e283-481e-b0ed-633ead421d60",
+    "data": [
+      {
+        "text": "잘 지냈니",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 10,
+    "updated": 0
+  },
+  {
+    "id": "58af9ebd-b619-4210-a3b1-4a030d7b0771",
+    "data": [
+      {
+        "text": "오늘 어때",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 10,
+    "updated": 0
+  }
+]

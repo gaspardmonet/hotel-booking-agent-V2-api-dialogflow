@@ -1,0 +1,64 @@
+[
+  {
+    "id": "f5e5ef18-b68b-4328-b3f6-bbdbcfaffac1",
+    "data": [
+      {
+        "text": "show reservations",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e41fa512-ae5c-4a82-992f-cd9eb521f71b",
+    "data": [
+      {
+        "text": "password",
+        "alias": "password",
+        "meta": "@password",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ff784157-02a8-45e2-931b-dd14caa07608",
+    "data": [
+      {
+        "text": "show bookings I have",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5c90970e-a371-4f9a-a3af-f030d01a55c4",
+    "data": [
+      {
+        "text": "Show all bookings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f01f54cd-cd19-494a-a877-6ab978cdc304",
+    "data": [
+      {
+        "text": "show me my bookings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
