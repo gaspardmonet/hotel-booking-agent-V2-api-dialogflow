@@ -25,20 +25,22 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     }
 
     function countBookings(agent) {
-        let params = agent.parameters;
-        if (params.password === admin) {
-            return firestore.collection(`orders`).get()
-                .then((QuerySnapshot) => {
-                    var orders = [];
-                    QuerySnapshot.forEach((doc) => { orders.push(doc.data()) });
-                    return agent.add(` you have ${orders.length} orders , would you like to see them ?
-                            press yes `);
-                })
-                .catch((e => {
-                    console.log(`Error `, e);
-                    agent.add(` Something went wrong while reading from database `);
-                }))
-        }
+        // let params = agent.parameters;
+        // if (params.password === "admin") {
+        firestore.collection(`orders`).get()
+            .then((QuerySnapshot) => {
+                var orders = [];
+                QuerySnapshot.forEach((doc) => { orders.push(doc.data()) });
+                agent.add(` you have ${orders.length} orders , would you like to see them ?
+                        press yes `);
+                return console.log(`orders lenght has been successfully transfered`);
+
+            })
+            .catch((e => {
+                console.log(`Error `, e);
+                agent.add(` Something went wrong while reading from database `);
+            }))
+        
     }
 
     function showBookings(agent) {
@@ -52,7 +54,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
                     list += ` \n number ${index + 1} is ${eachOrder.roomType} room for ${eachOrder.persons} persons is ordered by 
                 ${eachOrder.name} contact email is ${eachOrder.email} \n `
                 });
-                return agent.add(` ${list}`);
+               return agent.add(` ${list}`);
             })
             .catch((e => {
                 console.log(`Error `, e);
